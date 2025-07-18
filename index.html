@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Myportofolio</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <!-- Font Awesome untuk icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Layout Utama -->
+    <div class="container">
+      <!-- Navbar -->
+      <header class="navbar">
+        <div class="browser-bar">
+          <div class="browser-controls">
+            <div class="control yellow"></div>
+            <div class="control green"></div>
+            <div class="control red"></div>
+          </div>
+
+          <div class="address-bar">
+            <span>www.dzikri.com</span>
+          </div>
+
+          <div class="window-controls">
+            <button class="window-btn">_</button>
+            <button class="window-btn">□</button>
+            <button class="window-btn">×</button>
+          </div>
+        </div>
+
+        <nav class="nav-menu">
+          <ul>
+            <li class="active">
+              <a href="#home">
+                <i class="fas fa-home"></i>
+                <span>Home</span>
+              </a>
+            </li>
+            <li>
+              <a href="#about">
+                <i class="fas fa-user"></i>
+                <span>About</span>
+              </a>
+            </li>
+            <li>
+              <a href="#projects">
+                <i class="fas fa-folder"></i>
+                <span>Projects</span>
+              </a>
+            </li>
+            <li>
+              <a href="#contact">
+                <i class="fas fa-envelope"></i>
+                <span>Contact</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <!-- Konten Utama -->
+      <main class="content">
+        <div class="profile-card-container">
+          <!-- Profile Card Kiri -->
+          <div class="profile-card">
+            <div class="card-inner">
+              <!-- Bagian Depan Kartu -->
+              <div class="card-front teal">
+                <div class="card-header">
+                  <div class="browser-controls">
+                    <div class="control yellow"></div>
+                    <div class="control green"></div>
+                    <div class="control red"></div>
+                  </div>
+                  <div class="card-title">Muhammad dzikri</div>
+                  <div class="window-controls">
+                    <button class="window-btn">×</button>
+                  </div>
+                </div>
+                <div class="card-content">
+                  <img
+                    class="profile-image"
+                    src="projects/dzikri.jpeg"
+                    alt=""
+                  />
+                  <h3>Siswa</h3>
+                  <p>SMK BBC</p>
+                  <p>RPL</p>
+                  <div class="flip-hint">(Click to flip)</div>
+                </div>
+              </div>
+
+              <!-- Bagian Belakang Kartu -->
+              <div class="card-back teal">
+                <div class="card-header">
+                  <div class="browser-controls">
+                    <div class="control yellow"></div>
+                    <div class="control green"></div>
+                    <div class="control red"></div>
+                  </div>
+                  <div class="card-title">Skills</div>
+                  <div class="window-controls">
+                    <button class="window-btn">×</button>
+                  </div>
+                </div>
+                <div class="card-content">
+                  <h3>Menggunakan</h3>
+                  <ul class="skill-list">
+                    <li>
+                      <div class="bullet"></div>
+                      Html
+                    </li>
+                    <li>
+                      <div class="bullet"></div>
+                      Css
+                    </li>
+                    <li>
+                      <div class="bullet"></div>
+                      JavaScript
+                    </li>
+                    <li>
+                      <div class="bullet"></div>
+                      MySql
+                    </li>
+                    <li>
+                      <div class="bullet"></div>
+                      Figma
+                    </li>
+                  </ul>
+                  <div class="flip-hint">(Click to flip back)</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Konten Tengah -->
+          <div class="main-content">
+            <div class="window">
+              <div class="card-header">
+                <div class="browser-controls">
+                  <div class="control yellow"></div>
+                  <div class="control green"></div>
+                  <div class="control red"></div>
+                </div>
+                <div class="card-title">Welcome</div>
+                <div class="window-controls">
+                  <button class="window-btn">×</button>
+                </div>
+              </div>
+
+              <div class="window-content">
+                <div class="text-center">
+                  <h1>Portofolio Website</h1>
+                  <p></p>
+                </div>
+
+                <section class="content-section">
+                  <h2 class="section-title yellow-bg">Tentang Saya</h2>
+                  <p>
+                    saya siswa smk budi bakti ciwidey, saya memiliki kemampuan
+                    dalam mengerjakan beberapa project kecil atau sederhana yang
+                    mencangkup pembuatan website
+                  </p>
+                </section>
+
+                <section class="content-section">
+                  <h2 class="section-title teal-bg">Projek Saya</h2>
+                  <div class="projects-grid">
+                    <div class="project-card">
+                      <img
+                        src="projects/web edit.jpeg"
+                        alt="PMB IDN"
+                        class="project-image"
+                      />
+                      <h3>Mengedit Web</h3>
+                      <p>Dzshoowroom cars</p>
+                    </div>
+                    <div class="project-card">
+                      <img
+                        class="project-image"
+                        src="projects/omnifood.jpg"
+                        alt="E-Employee IDN"
+                      />
+                      <h3>Mengerjakan web</h3>
+                      <p>Omnifood</p>
+                    </div>
+                  </div>
+                </section>
+
+                <section class="content-section">
+                  <h2 class="section-title pink-bg">Kontak</h2>
+                  <div class="contact-info">
+                    <div class="contact-item">
+                      <div class="contact-bullet teal-bg"></div>
+                      <span>dzikriicikiwir@gmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                      <div class="contact-bullet yellow-bg"></div>
+                      <span>62+ 823-1067-6151</span>
+                    </div>
+                  </div>
+                </section>
+              </div>
+            </div>
+          </div>
+
+          <!-- Profile Card Kanan -->
+          <div class="profile-card">
+            <div class="card-inner">
+              <!-- Bagian Depan Kartu -->
+              <div class="card-front yellow">
+                <div class="card-header">
+                  <div class="browser-controls">
+                    <div class="control yellow"></div>
+                    <div class="control green"></div>
+                    <div class="control red"></div>
+                  </div>
+                  <div class="card-title">Sosmed</div>
+                  <div class="window-controls">
+                    <button class="window-btn">×</button>
+                  </div>
+                </div>
+                <div class="card-content">
+                  <img
+                    class="profile-image"
+                    src="projects/ig.png"
+                    alt="Github Logo"
+                  />
+                  <h3>Sosial Media</h3>
+                  <p>Get in touch</p>
+                  <div class="flip-hint">(Click to flip)</div>
+                </div>
+              </div>
+
+              <!-- Bagian Belakang Kartu -->
+              <div class="card-back yellow">
+                <div class="card-header">
+                  <div class="browser-controls">
+                    <div class="control yellow"></div>
+                    <div class="control green"></div>
+                    <div class="control red"></div>
+                  </div>
+                  <div class="card-title">Links</div>
+                  <div class="window-controls">
+                    <button class="window-btn">×</button>
+                  </div>
+                </div>
+                <div class="card-content">
+                  <h3>Links</h3>
+                  <ul class="skill-list">
+                    <li>
+                      <div class="bullet"></div>
+                      Instagram:@dzkrymles
+                    </li>
+                    <li>
+                      <div class="bullet"></div>
+                      LinkedIn:Muhammaddzikri
+                    </li>
+                    <li>
+                      <div class="bullet"></div>
+                      Twitter:jawirbarat
+                    </li>
+                    <li>
+                      <div class="bullet"></div>
+                      Facebook:Dzee Juixee
+                    </li>
+                  </ul>
+                  <div class="flip-hint">(Click to flip back)</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <script>
+      // JavaScript sederhana untuk flip card
+      document.querySelectorAll(".profile-card").forEach((card) => {
+        card.addEventListener("click", function () {
+          this.querySelector(".card-inner").classList.toggle("is-flipped");
+        });
+      });
+
+      // JavaScript untuk navigasi
+      document.querySelectorAll(".nav-menu li").forEach((item) => {
+        item.addEventListener("click", function () {
+          document.querySelectorAll(".nav-menu li").forEach((i) => {
+            i.classList.remove("active");
+          });
+          this.classList.add("active");
+        });
+      });
+    </script>
+  </body>
+</html>
